@@ -1,0 +1,20 @@
+{
+    "name": "aldoginting/papertrail-laravel",
+    "description": "Log laravel request to papertrail",
+    "keywords": ["papertrail", "lumen", "logging", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aldoginting",
+            "email": "aldoutamaginting@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "~1.12"
+    },
+    "autoload": {
+        "psr-0": {
+            "PapertrailLaravel\\": "src"
+        }
+    }
+}
