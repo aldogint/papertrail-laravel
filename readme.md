@@ -20,7 +20,7 @@ Register middleware in app/kernel.php.
 ```php
     protected $middleware = [
         ...
-        \App\Http\Middleware\PapertrailLoggingMiddleware::class,
+        PapertrailLaravel\Middleware\PapertrailLoggingMiddleware::class,
     ];
 ```
 - Lumen
@@ -28,7 +28,7 @@ Register middleware in bootstrap/app.php.
 ```php
 $app->middleware([
     ...
-    App\Http\Middleware\PapertrailLoggingMiddleware::class,
+    PapertrailLaravel\Middleware\PapertrailLoggingMiddleware::class,
 ]);
 ```
 
