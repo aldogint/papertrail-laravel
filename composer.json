@@ -13,8 +13,8 @@
         "monolog/monolog": "~1.12"
     },
     "autoload": {
-        "psr-0": {
-            "PapertrailLaravel\\": "src"
+        "psr-4": {
+            "PapertrailLaravel\\": "src/"
         }
     }
 }
